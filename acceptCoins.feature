@@ -1,3 +1,5 @@
+#
+
 Feature: Accept Coins
 As a vendor
 I want a vending machine that accepts coins
@@ -10,7 +12,7 @@ Then the coin is accepted
 
 Scenario: Accept valid coin with no coins inserted
 Given there are no coins inserted
-  And the machine displays no coins are inserted
+And the machine displays no coins are inserted
 When a valid coin is entered
 Then the coin is accepted
 
@@ -20,7 +22,7 @@ Then the coin is rejected
 
 Scenario: Reject invalid coin with no coins inserted
 Given there are no coins inserted
-  And the machine displays no coins are inserted
+And the machine displays no coins are inserted
 When an invalid coin is entered
 Then the coin is rejected
 

@@ -46,7 +46,7 @@ Then the coin is <status>
 
 Examples:
 | current_amount | message | valid_coin | status |
-| 0 | "INSERT COIN" | nickle | accepted |
+| 0 | "INSERT COIN" | nickel | accepted |
 | 0 | "INSERT COIN" | dime | accepted |
 | 0 | "INSERT COIN" | quarter | accepted |
 
@@ -85,7 +85,7 @@ Examples:
 | 0 | "INSERT COIN" | chocolate_quarter | rejected |
 | 0 | "INSERT COIN" | scrap_metal | rejected |
 | 0 | "INSERT COIN" | penny | rejected |
-| 0 | "INSERT COIN" | nickle | accepted |
+| 0 | "INSERT COIN" | nickel | accepted |
 | 0 | "INSERT COIN" | dime | accepted |
 | 0 | "INSERT COIN" | quarter | accepted |
 
@@ -103,7 +103,7 @@ Examples:
 | 0 | "INSERT COIN" | chocolate_quarter | rejected | 0 | "INSERT COIN" |
 | 0 | "INSERT COIN" | scrap_metal | rejected | 0 | "INSERT COIN" |
 | 0 | "INSERT COIN" | penny | rejected | 0 | "INSERT COIN" |
-| 0 | "INSERT COIN" | nickle | accepted | .05 | "$0.05" |
+| 0 | "INSERT COIN" | nickel | accepted | .05 | "$0.05" |
 | 0 | "INSERT COIN" | dime | accepted | .10 | "$0.10" |
 | 0 | "INSERT COIN" | quarter | accepted | .25 | "$0.25" |
 | .25 | "$0.25" | quarter | accepted | .25 | "$0.50" |

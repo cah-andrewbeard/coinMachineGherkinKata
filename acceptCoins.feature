@@ -33,7 +33,7 @@ Then the coin is <status>
 
 Examples:
 | valid_coin | status |
-| nickle | accepted |
+| nickel | accepted |
 | dime | accepted |
 | quarter | accepted |
 
